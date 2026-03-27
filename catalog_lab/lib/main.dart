@@ -68,7 +68,7 @@ class CatalogScreen extends StatelessWidget{
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Expanded(child: Image.network(product.imageUrl, fit: BoxFit.cover,)),
+                    Expanded(child: Image.asset(product.imageUrl, fit: BoxFit.cover,)),
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Text(
